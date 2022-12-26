@@ -4,14 +4,15 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      Weather App
+      <h1>Weather App</h1>
       <footer>
-        Coded by Alona Chubenko
+        Coded by Alona Chubenko{" "}
         <a
           href="https://github.com/AlonaCh/react-weather-app.git"
           target="_blank"
           rel="noreferrer"
         >
+          {" "}
           is open-sourced on GitHub
         </a>
       </footer>
